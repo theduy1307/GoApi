@@ -1,0 +1,1247 @@
+[
+  {
+    "Id": "7fbc5726-13c6-49c8-a4c1-14bcdbff6151",
+    "Name": "Afghanistan",
+    "IsoCode": "AF"
+  },
+  {
+    "Id": "02a5ed91-708d-46a2-a8bf-8281769e1249",
+    "Name": "Åland Islands",
+    "IsoCode": "AX"
+  },
+  {
+    "Id": "eddab34f-3bc3-425c-a506-0d7f717d9c3e",
+    "Name": "Albania",
+    "IsoCode": "AL"
+  },
+  {
+    "Id": "e03d3109-fdd4-4c5b-a548-59236d646f5e",
+    "Name": "Algeria",
+    "IsoCode": "DZ"
+  },
+  {
+    "Id": "79f04f04-c84f-4567-9c97-f80e20e25b58",
+    "Name": "American Samoa",
+    "IsoCode": "AS"
+  },
+  {
+    "Id": "f17a1689-aaf3-4d2f-bd92-a17a934b701c",
+    "Name": "Andorra",
+    "IsoCode": "AD"
+  },
+  {
+    "Id": "d104cbf9-a288-4d9d-a4e1-f2b7797eb301",
+    "Name": "Angola",
+    "IsoCode": "AO"
+  },
+  {
+    "Id": "bdbb5018-40b9-44b7-bd13-8044dbadeef6",
+    "Name": "Anguilla",
+    "IsoCode": "AI"
+  },
+  {
+    "Id": "339b3619-7793-4fe2-8d48-5698d7ea674e",
+    "Name": "Antarctica",
+    "IsoCode": "AQ"
+  },
+  {
+    "Id": "035ebf34-5f45-4b29-89f8-f4a5e398714f",
+    "Name": "Antigua and Barbuda",
+    "IsoCode": "AG"
+  },
+  {
+    "Id": "9db7fbd6-399d-4aec-9bd6-841d1b5867b0",
+    "Name": "Argentina",
+    "IsoCode": "AR"
+  },
+  {
+    "Id": "39f91a56-d02a-4ccd-8721-beade9472f51",
+    "Name": "Armenia",
+    "IsoCode": "AM"
+  },
+  {
+    "Id": "23aa5d18-3cd5-4296-a6ef-831e3368832b",
+    "Name": "Aruba",
+    "IsoCode": "AW"
+  },
+  {
+    "Id": "2c9823e6-bf43-4dee-9b04-fcafb0ddabfe",
+    "Name": "Australia",
+    "IsoCode": "AU"
+  },
+  {
+    "Id": "4f0844ce-f867-4ec7-b81d-d44434e531c9",
+    "Name": "Austria",
+    "IsoCode": "AT"
+  },
+  {
+    "Id": "1002ed82-da93-432f-8653-499151c6517a",
+    "Name": "Azerbaijan",
+    "IsoCode": "AZ"
+  },
+  {
+    "Id": "3fe7e7ba-f041-40a4-b172-a2d8c9fb5238",
+    "Name": "Bahamas",
+    "IsoCode": "BS"
+  },
+  {
+    "Id": "893fd9cf-942a-4e56-b666-c67d9a7ef7d5",
+    "Name": "Bahrain",
+    "IsoCode": "BH"
+  },
+  {
+    "Id": "c8d0729b-9386-42ff-a311-88a573f0cb6f",
+    "Name": "Bangladesh",
+    "IsoCode": "BD"
+  },
+  {
+    "Id": "a79afc1d-05d9-40cf-be33-d9bdb3280d9e",
+    "Name": "Barbados",
+    "IsoCode": "BB"
+  },
+  {
+    "Id": "e3d2656a-e7ac-431d-9a44-968e4f234132",
+    "Name": "Belarus",
+    "IsoCode": "BY"
+  },
+  {
+    "Id": "3097bda0-d0ce-44ee-abb0-d62777b762fb",
+    "Name": "Belgium",
+    "IsoCode": "BE"
+  },
+  {
+    "Id": "0a550fe0-2281-46cf-9ef0-daa46194a005",
+    "Name": "Belize",
+    "IsoCode": "BZ"
+  },
+  {
+    "Id": "3995cae3-9638-4500-adc8-9696ca3d6ff4",
+    "Name": "Benin",
+    "IsoCode": "BJ"
+  },
+  {
+    "Id": "c6b662e9-2405-40ff-b35a-ee61d6ab72be",
+    "Name": "Bermuda",
+    "IsoCode": "BM"
+  },
+  {
+    "Id": "eda03029-f03c-48dd-a7b9-1339f8c64582",
+    "Name": "Bhutan",
+    "IsoCode": "BT"
+  },
+  {
+    "Id": "96b451fc-cbd7-40d9-b408-dc77961501b4",
+    "Name": "Bolivia, Plurinational State of",
+    "IsoCode": "BO"
+  },
+  {
+    "Id": "42c04dbe-cbbc-43e3-92dd-85d5152b2fdd",
+    "Name": "Bonaire, Sint Eustatius and Saba",
+    "IsoCode": "BQ"
+  },
+  {
+    "Id": "4f86186e-018c-46fc-85af-eb286933bb65",
+    "Name": "Bosnia and Herzegovina",
+    "IsoCode": "BA"
+  },
+  {
+    "Id": "d28eea62-d19e-4974-93df-b29665cb753f",
+    "Name": "Botswana",
+    "IsoCode": "BW"
+  },
+  {
+    "Id": "9d31d7d4-377b-429e-9c64-9f2076c54e8f",
+    "Name": "Bouvet Island",
+    "IsoCode": "BV"
+  },
+  {
+    "Id": "bd7471c9-0bca-4417-8f69-6fb4a422c8fe",
+    "Name": "Brazil",
+    "IsoCode": "BR"
+  },
+  {
+    "Id": "92d93ea5-ce03-467a-829e-5f3169e37efa",
+    "Name": "British Indian Ocean Territory",
+    "IsoCode": "IO"
+  },
+  {
+    "Id": "d7477c2b-32c9-4e3f-b0fb-315a3b2367d4",
+    "Name": "Brunei Darussalam",
+    "IsoCode": "BN"
+  },
+  {
+    "Id": "b4d00ab4-600f-45b4-a5a6-f85317f66c52",
+    "Name": "Bulgaria",
+    "IsoCode": "BG"
+  },
+  {
+    "Id": "3fbf1f81-4d86-48d1-9b8e-c31caa316e1d",
+    "Name": "Burkina Faso",
+    "IsoCode": "BF"
+  },
+  {
+    "Id": "65643ec9-59cf-4594-92cf-8d4d8408b42f",
+    "Name": "Burundi",
+    "IsoCode": "BI"
+  },
+  {
+    "Id": "a4f85b0a-6940-4330-8067-b64e5bef655e",
+    "Name": "Cambodia",
+    "IsoCode": "KH"
+  },
+  {
+    "Id": "296aeee9-eb65-4344-97d1-493de5eb6e53",
+    "Name": "Cameroon",
+    "IsoCode": "CM"
+  },
+  {
+    "Id": "1e7a4a67-5ecb-438d-a46c-3c174f0aa4d2",
+    "Name": "Canada",
+    "IsoCode": "CA"
+  },
+  {
+    "Id": "ec5dc2a2-107d-41bf-92f2-d59ecd688034",
+    "Name": "Cape Verde",
+    "IsoCode": "CV"
+  },
+  {
+    "Id": "b5ddd2a5-1715-4dd1-8cfe-960ea5c9568d",
+    "Name": "Cayman Islands",
+    "IsoCode": "KY"
+  },
+  {
+    "Id": "52f5be4e-7b73-41c7-80d3-7d558ac06f57",
+    "Name": "Central African Republic",
+    "IsoCode": "CF"
+  },
+  {
+    "Id": "a89d8973-e633-4d2e-8fa8-02b453147a43",
+    "Name": "Chad",
+    "IsoCode": "TD"
+  },
+  {
+    "Id": "e48a8de5-e4e3-439e-bd29-4c1106a0485d",
+    "Name": "Chile",
+    "IsoCode": "CL"
+  },
+  {
+    "Id": "a371910c-d82f-4351-b1f9-c052fbb5cabe",
+    "Name": "China",
+    "IsoCode": "CN"
+  },
+  {
+    "Id": "478e5c57-ed20-43f2-9fbe-ec4444557399",
+    "Name": "Christmas Island",
+    "IsoCode": "CX"
+  },
+  {
+    "Id": "f0becbd9-332c-4328-9b23-af3fa3c9dd89",
+    "Name": "Cocos (Keeling) Islands",
+    "IsoCode": "CC"
+  },
+  {
+    "Id": "14a68da2-86c9-4f0e-b542-7ae9e3784b32",
+    "Name": "Colombia",
+    "IsoCode": "CO"
+  },
+  {
+    "Id": "fef274c1-3de6-4efc-bdcf-bbd138829a9b",
+    "Name": "Comoros",
+    "IsoCode": "KM"
+  },
+  {
+    "Id": "14f14541-3a54-4bfe-a89a-39564a692695",
+    "Name": "Congo",
+    "IsoCode": "CG"
+  },
+  {
+    "Id": "f33e2335-8815-4567-b598-d2073cc52e90",
+    "Name": "Congo, the Democratic Republic of the",
+    "IsoCode": "CD"
+  },
+  {
+    "Id": "79593bec-c64a-4949-a740-19ab17967c16",
+    "Name": "Cook Islands",
+    "IsoCode": "CK"
+  },
+  {
+    "Id": "c6416ae4-e6ac-4b24-b25c-0f2f9af48939",
+    "Name": "Costa Rica",
+    "IsoCode": "CR"
+  },
+  {
+    "Id": "6953a683-692e-4684-86df-12c8eb6d2ecf",
+    "Name": "Côte d'Ivoire",
+    "IsoCode": "CI"
+  },
+  {
+    "Id": "4b7dcb6b-901e-4ab0-82c2-14a6bed305b5",
+    "Name": "Croatia",
+    "IsoCode": "HR"
+  },
+  {
+    "Id": "d4fd85ef-f948-4685-84ee-364101da043f",
+    "Name": "Cuba",
+    "IsoCode": "CU"
+  },
+  {
+    "Id": "1541f30f-2d8d-414b-aaac-73c0348f76b3",
+    "Name": "Curaçao",
+    "IsoCode": "CW"
+  },
+  {
+    "Id": "9ab30c5b-e13b-4d50-baef-7b82d33224f1",
+    "Name": "Cyprus",
+    "IsoCode": "CY"
+  },
+  {
+    "Id": "0d460607-a332-4461-a627-e1f53c41abcf",
+    "Name": "Czech Republic",
+    "IsoCode": "CZ"
+  },
+  {
+    "Id": "ca02ee44-bae2-4365-8f88-a26621dcaa24",
+    "Name": "Denmark",
+    "IsoCode": "DK"
+  },
+  {
+    "Id": "0e964e51-7450-45f0-adde-7d32919a36b8",
+    "Name": "Djibouti",
+    "IsoCode": "DJ"
+  },
+  {
+    "Id": "72585961-a822-48f8-a687-2936adfa548d",
+    "Name": "Dominica",
+    "IsoCode": "DM"
+  },
+  {
+    "Id": "5d6c3836-c74e-435b-8d40-dbf33b31d3ba",
+    "Name": "Dominican Republic",
+    "IsoCode": "DO"
+  },
+  {
+    "Id": "30460303-08e2-44f0-b34a-92fdeaab0b8b",
+    "Name": "Ecuador",
+    "IsoCode": "EC"
+  },
+  {
+    "Id": "e4269074-5d5f-4244-bd8f-846df9ccee8c",
+    "Name": "Egypt",
+    "IsoCode": "EG"
+  },
+  {
+    "Id": "0e11c71d-81b6-4c9b-b2b9-b7fc7c30a9cc",
+    "Name": "El Salvador",
+    "IsoCode": "SV"
+  },
+  {
+    "Id": "e78f809b-2333-4c87-aa04-99a6b749dc43",
+    "Name": "Equatorial Guinea",
+    "IsoCode": "GQ"
+  },
+  {
+    "Id": "a42bde81-8c81-4488-885e-1ac9cdf2b2dd",
+    "Name": "Eritrea",
+    "IsoCode": "ER"
+  },
+  {
+    "Id": "ea482843-1d6f-4955-8305-8d5dd60a9cd8",
+    "Name": "Estonia",
+    "IsoCode": "EE"
+  },
+  {
+    "Id": "977504ad-5c50-4757-8395-4ee01dd81f00",
+    "Name": "Ethiopia",
+    "IsoCode": "ET"
+  },
+  {
+    "Id": "60052eaa-4e31-40e0-9e9e-cc62dbe9bb23",
+    "Name": "Falkland Islands (Malvinas)",
+    "IsoCode": "FK"
+  },
+  {
+    "Id": "08383049-6080-469c-961c-0338e17394ed",
+    "Name": "Faroe Islands",
+    "IsoCode": "FO"
+  },
+  {
+    "Id": "a7c0ea7e-075b-43a9-827b-8d7e133d3de5",
+    "Name": "Fiji",
+    "IsoCode": "FJ"
+  },
+  {
+    "Id": "29f1d880-37b0-4fa5-8a4b-08a991d7e137",
+    "Name": "Finland",
+    "IsoCode": "FI"
+  },
+  {
+    "Id": "9c4e41b4-48f9-46b1-8900-1c80d98165b8",
+    "Name": "France",
+    "IsoCode": "FR"
+  },
+  {
+    "Id": "0454238d-75b8-4230-a47d-f637f38e8606",
+    "Name": "French Guiana",
+    "IsoCode": "GF"
+  },
+  {
+    "Id": "39ecabc3-c7c8-41be-b5ec-cbe8d7ca8559",
+    "Name": "French Polynesia",
+    "IsoCode": "PF"
+  },
+  {
+    "Id": "c0756ee7-4395-4194-aa77-39137ef6190d",
+    "Name": "French Southern Territories",
+    "IsoCode": "TF"
+  },
+  {
+    "Id": "f2bf8ee5-7ed2-4a48-a446-c0b20955c61a",
+    "Name": "Gabon",
+    "IsoCode": "GA"
+  },
+  {
+    "Id": "1197fc09-a492-41a3-8d86-694a8cb62438",
+    "Name": "Gambia",
+    "IsoCode": "GM"
+  },
+  {
+    "Id": "f3f1a9ae-e0ef-4a74-bc64-4d13c4c18b91",
+    "Name": "Georgia",
+    "IsoCode": "GE"
+  },
+  {
+    "Id": "f1e01af2-4c02-442f-9369-deb36043bbcb",
+    "Name": "Germany",
+    "IsoCode": "DE"
+  },
+  {
+    "Id": "befb82a5-19aa-435b-a272-4567284d953f",
+    "Name": "Ghana",
+    "IsoCode": "GH"
+  },
+  {
+    "Id": "0160399c-0a54-43c0-9834-df8c7f3c14d0",
+    "Name": "Gibraltar",
+    "IsoCode": "GI"
+  },
+  {
+    "Id": "3363ec36-9877-4480-81f6-e857cf329b6f",
+    "Name": "Greece",
+    "IsoCode": "GR"
+  },
+  {
+    "Id": "4a80886e-139a-4fa2-9cee-a9788ff05f19",
+    "Name": "Greenland",
+    "IsoCode": "GL"
+  },
+  {
+    "Id": "c3df8dfe-5d6e-495c-8d2c-0e9daf05ba1b",
+    "Name": "Grenada",
+    "IsoCode": "GD"
+  },
+  {
+    "Id": "586c4c4d-14d1-478a-bddc-f1beebe28227",
+    "Name": "Guadeloupe",
+    "IsoCode": "GP"
+  },
+  {
+    "Id": "8f2b2340-db47-42b3-8191-3be47305bc9f",
+    "Name": "Guam",
+    "IsoCode": "GU"
+  },
+  {
+    "Id": "89503c20-0902-45d6-bfe4-0690f6f337f7",
+    "Name": "Guatemala",
+    "IsoCode": "GT"
+  },
+  {
+    "Id": "ccd78bfb-d60d-4dd5-8544-44c601431d56",
+    "Name": "Guernsey",
+    "IsoCode": "GG"
+  },
+  {
+    "Id": "3fd54b8b-ace1-4b7c-bd6a-c3ff1de32078",
+    "Name": "Guinea",
+    "IsoCode": "GN"
+  },
+  {
+    "Id": "975b53c0-30e0-464b-b599-62573c651dfb",
+    "Name": "Guinea-Bissau",
+    "IsoCode": "GW"
+  },
+  {
+    "Id": "df5b4be7-5e94-41ee-9865-5375f67dbd2a",
+    "Name": "Guyana",
+    "IsoCode": "GY"
+  },
+  {
+    "Id": "d552a2a8-4dcf-4834-9036-46fce7cefe5b",
+    "Name": "Haiti",
+    "IsoCode": "HT"
+  },
+  {
+    "Id": "5506b04f-4bb2-4d69-af69-b4962f464ebc",
+    "Name": "Heard Island and McDonald Islands",
+    "IsoCode": "HM"
+  },
+  {
+    "Id": "5957b7ab-0d39-4212-aeae-f2398d8736b8",
+    "Name": "Holy See (Vatican City State)",
+    "IsoCode": "VA"
+  },
+  {
+    "Id": "408ed32c-1928-4636-8810-1324441ebaa6",
+    "Name": "Honduras",
+    "IsoCode": "HN"
+  },
+  {
+    "Id": "4e87ebbe-b982-4dd4-8d5d-615a8a954081",
+    "Name": "Hong Kong",
+    "IsoCode": "HK"
+  },
+  {
+    "Id": "b58769d2-97a7-4873-872a-35ad9c9cf5a0",
+    "Name": "Hungary",
+    "IsoCode": "HU"
+  },
+  {
+    "Id": "8fb49a42-ab4e-40be-a602-d781c1257dac",
+    "Name": "Iceland",
+    "IsoCode": "IS"
+  },
+  {
+    "Id": "49e1c12e-ce89-436c-a79d-40c8641f6b0e",
+    "Name": "India",
+    "IsoCode": "IN"
+  },
+  {
+    "Id": "28b9daac-8802-4e35-bc27-cab87f22612f",
+    "Name": "Indonesia",
+    "IsoCode": "ID"
+  },
+  {
+    "Id": "a4aa3029-fc24-418c-9987-74a3b9a11f07",
+    "Name": "Iran, Islamic Republic of",
+    "IsoCode": "IR"
+  },
+  {
+    "Id": "fbd14a20-9779-4127-a55d-430145c23f2e",
+    "Name": "Iraq",
+    "IsoCode": "IQ"
+  },
+  {
+    "Id": "46c0316e-8297-4eac-81b1-b3631b98c43b",
+    "Name": "Ireland",
+    "IsoCode": "IE"
+  },
+  {
+    "Id": "c6ee3efb-f66a-467b-92e4-f628ac07403c",
+    "Name": "Isle of Man",
+    "IsoCode": "IM"
+  },
+  {
+    "Id": "7ccefbaa-6b57-4acf-afd9-c5cadb3608d4",
+    "Name": "Israel",
+    "IsoCode": "IL"
+  },
+  {
+    "Id": "76cae616-10f0-4a8c-ae20-6e88ca2f374f",
+    "Name": "Italy",
+    "IsoCode": "IT"
+  },
+  {
+    "Id": "87ab887b-203a-451e-8d96-09782ae3f094",
+    "Name": "Jamaica",
+    "IsoCode": "JM"
+  },
+  {
+    "Id": "33a48ffd-4347-4c4a-bcb4-1c8dcf998029",
+    "Name": "Japan",
+    "IsoCode": "JP"
+  },
+  {
+    "Id": "177545e9-8c0a-441e-ab01-31714ee3c031",
+    "Name": "Jersey",
+    "IsoCode": "JE"
+  },
+  {
+    "Id": "8e967fce-87df-41aa-97ed-27c4159d56ac",
+    "Name": "Jordan",
+    "IsoCode": "JO"
+  },
+  {
+    "Id": "4fdee491-22e0-42e0-9399-1fd5fb5713c6",
+    "Name": "Kazakhstan",
+    "IsoCode": "KZ"
+  },
+  {
+    "Id": "64d6384f-b5d9-47c1-80ed-56ad2d49f5be",
+    "Name": "Kenya",
+    "IsoCode": "KE"
+  },
+  {
+    "Id": "73aeb154-a926-4524-9380-7bebf431db57",
+    "Name": "Kiribati",
+    "IsoCode": "KI"
+  },
+  {
+    "Id": "bbe3434a-e1b0-405a-aea2-dfe09faa506e",
+    "Name": "Korea, Democratic People's Republic of",
+    "IsoCode": "KP"
+  },
+  {
+    "Id": "60b3cb21-628f-4121-8315-2cfcdfd91788",
+    "Name": "Korea, Republic of",
+    "IsoCode": "KR"
+  },
+  {
+    "Id": "8bf7387f-9c21-41c3-b839-28483991682a",
+    "Name": "Kuwait",
+    "IsoCode": "KW"
+  },
+  {
+    "Id": "2e1babd0-3e8b-4150-8570-e74a35706777",
+    "Name": "Kyrgyzstan",
+    "IsoCode": "KG"
+  },
+  {
+    "Id": "03eb3968-a9df-40d7-9ff0-7207bd78e1d1",
+    "Name": "Lao People's Democratic Republic",
+    "IsoCode": "LA"
+  },
+  {
+    "Id": "735d1a35-e110-449a-ab91-b3a0cf9e16cd",
+    "Name": "Latvia",
+    "IsoCode": "LV"
+  },
+  {
+    "Id": "ffecfb2e-34c8-416b-bdb5-28d1f024b0cc",
+    "Name": "Lebanon",
+    "IsoCode": "LB"
+  },
+  {
+    "Id": "795e56a7-8055-49b3-9251-db4b3a3e5c91",
+    "Name": "Lesotho",
+    "IsoCode": "LS"
+  },
+  {
+    "Id": "e024a1d0-ed4c-4f96-8a38-3cc4eb1d4409",
+    "Name": "Liberia",
+    "IsoCode": "LR"
+  },
+  {
+    "Id": "3187aa97-84e3-4b13-a34a-4d5ceb524d4f",
+    "Name": "Libya",
+    "IsoCode": "LY"
+  },
+  {
+    "Id": "7e25cd7c-e358-434d-87ed-675bc39e17d5",
+    "Name": "Liechtenstein",
+    "IsoCode": "LI"
+  },
+  {
+    "Id": "242ca3cd-4ffb-4ba0-b4f2-03d0f900cd50",
+    "Name": "Lithuania",
+    "IsoCode": "LT"
+  },
+  {
+    "Id": "beb729ff-1d67-4a56-a37a-017887795b80",
+    "Name": "Luxembourg",
+    "IsoCode": "LU"
+  },
+  {
+    "Id": "8bd01d90-7ad5-4bca-8403-b091301c5194",
+    "Name": "Macao",
+    "IsoCode": "MO"
+  },
+  {
+    "Id": "75f3cf60-66e7-4758-aabd-3cd6350d3401",
+    "Name": "Macedonia, the Former Yugoslav Republic of",
+    "IsoCode": "MK"
+  },
+  {
+    "Id": "c83950c5-2372-4566-9393-e34a27842132",
+    "Name": "Madagascar",
+    "IsoCode": "MG"
+  },
+  {
+    "Id": "ebfebe9b-2548-41ad-8061-94b05a50af02",
+    "Name": "Malawi",
+    "IsoCode": "MW"
+  },
+  {
+    "Id": "4fb43fdb-1f5e-4045-96b9-61e273829b91",
+    "Name": "Malaysia",
+    "IsoCode": "MY"
+  },
+  {
+    "Id": "de2c390c-c956-4063-8cdc-929f212a8818",
+    "Name": "Maldives",
+    "IsoCode": "MV"
+  },
+  {
+    "Id": "9279a4e2-3f2a-4ba6-8ed1-31a2b0bcba9f",
+    "Name": "Mali",
+    "IsoCode": "ML"
+  },
+  {
+    "Id": "e3db4627-709f-4451-938f-d13551c16ac4",
+    "Name": "Malta",
+    "IsoCode": "MT"
+  },
+  {
+    "Id": "d0274d5c-72be-4938-ade5-3a3b49ec55fb",
+    "Name": "Marshall Islands",
+    "IsoCode": "MH"
+  },
+  {
+    "Id": "48b820c0-9fda-4a54-84d6-3ec6863b9efc",
+    "Name": "Martinique",
+    "IsoCode": "MQ"
+  },
+  {
+    "Id": "809ce3ad-b214-412b-af30-ee1a2bb61ec6",
+    "Name": "Mauritania",
+    "IsoCode": "MR"
+  },
+  {
+    "Id": "a725cb1f-1fc9-4e82-a152-d7d6846ef81f",
+    "Name": "Mauritius",
+    "IsoCode": "MU"
+  },
+  {
+    "Id": "fb639dbc-abe1-46c2-bd09-4bae41ae7938",
+    "Name": "Mayotte",
+    "IsoCode": "YT"
+  },
+  {
+    "Id": "dd8810e2-98ab-4ac9-a4c7-9e72298dee21",
+    "Name": "Mexico",
+    "IsoCode": "MX"
+  },
+  {
+    "Id": "52a803d4-1456-47e3-b155-0d790b2fb382",
+    "Name": "Micronesia, Federated States of",
+    "IsoCode": "FM"
+  },
+  {
+    "Id": "78203a80-debc-45f5-aebf-e76db5b59117",
+    "Name": "Moldova, Republic of",
+    "IsoCode": "MD"
+  },
+  {
+    "Id": "483d5ded-0fec-40c8-b175-adf01779fb64",
+    "Name": "Monaco",
+    "IsoCode": "MC"
+  },
+  {
+    "Id": "ac26de3b-a5a9-4813-8b98-6df5f43b10da",
+    "Name": "Mongolia",
+    "IsoCode": "MN"
+  },
+  {
+    "Id": "8f844697-10dc-4395-b309-c659e8e42587",
+    "Name": "Montenegro",
+    "IsoCode": "ME"
+  },
+  {
+    "Id": "be9ef52d-047c-4cdb-bba9-6c274ecf4765",
+    "Name": "Montserrat",
+    "IsoCode": "MS"
+  },
+  {
+    "Id": "184bb8e4-bb7e-4aed-bd95-5388420284d6",
+    "Name": "Morocco",
+    "IsoCode": "MA"
+  },
+  {
+    "Id": "01883786-fda7-43ef-a3ef-db369bea20ff",
+    "Name": "Mozambique",
+    "IsoCode": "MZ"
+  },
+  {
+    "Id": "892e529e-e1d5-4296-bfd3-456176768f05",
+    "Name": "Myanmar",
+    "IsoCode": "MM"
+  },
+  {
+    "Id": "b26d1b62-a963-4adb-aa92-e7deb33c3a84",
+    "Name": "Namibia",
+    "IsoCode": "NA"
+  },
+  {
+    "Id": "8e4ae5c6-9f59-498e-8510-2027212f26d4",
+    "Name": "Nauru",
+    "IsoCode": "NR"
+  },
+  {
+    "Id": "298c1775-4ea5-4583-b46a-c1fcef5d71ea",
+    "Name": "Nepal",
+    "IsoCode": "NP"
+  },
+  {
+    "Id": "fad8bd45-7bbc-410c-8177-a7f3cd96f1e1",
+    "Name": "Netherlands",
+    "IsoCode": "NL"
+  },
+  {
+    "Id": "43d78e28-3042-41c2-999b-ffc4fc7faa1c",
+    "Name": "New Caledonia",
+    "IsoCode": "NC"
+  },
+  {
+    "Id": "1243b44e-144f-4de1-8758-78cf121aecfc",
+    "Name": "New Zealand",
+    "IsoCode": "NZ"
+  },
+  {
+    "Id": "2ca2db97-d5cb-422e-8f7d-070b3a59382b",
+    "Name": "Nicaragua",
+    "IsoCode": "NI"
+  },
+  {
+    "Id": "e62e0772-bf4a-432f-8a05-006be29f563a",
+    "Name": "Niger",
+    "IsoCode": "NE"
+  },
+  {
+    "Id": "2955c81a-b412-443d-8b88-7763f6eeb1a5",
+    "Name": "Nigeria",
+    "IsoCode": "NG"
+  },
+  {
+    "Id": "fd3c4027-929a-4ac3-bc86-f7d9cbb78f6a",
+    "Name": "Niue",
+    "IsoCode": "NU"
+  },
+  {
+    "Id": "bded796c-a412-483e-8994-93e0b838b1e3",
+    "Name": "Norfolk Island",
+    "IsoCode": "NF"
+  },
+  {
+    "Id": "33eefba8-675a-4e12-900d-3c54cff30ded",
+    "Name": "Northern Mariana Islands",
+    "IsoCode": "MP"
+  },
+  {
+    "Id": "8217c673-1f63-49ef-9190-c2e4c60b97b6",
+    "Name": "Norway",
+    "IsoCode": "NO"
+  },
+  {
+    "Id": "943d34f4-c412-4441-a12c-8f048a2a759c",
+    "Name": "Oman",
+    "IsoCode": "OM"
+  },
+  {
+    "Id": "4d1466de-6a3a-48bf-bc9d-3ed655b1b11a",
+    "Name": "Pakistan",
+    "IsoCode": "PK"
+  },
+  {
+    "Id": "94703041-17c5-47cd-95c1-222ccdca830c",
+    "Name": "Palau",
+    "IsoCode": "PW"
+  },
+  {
+    "Id": "856b60f0-3f75-4172-baf3-54bbcc431188",
+    "Name": "Palestine, State of",
+    "IsoCode": "PS"
+  },
+  {
+    "Id": "9bf1bdf5-485f-4cfa-9f18-35e63fc314d8",
+    "Name": "Panama",
+    "IsoCode": "PA"
+  },
+  {
+    "Id": "b6941f70-71d6-43ef-b3a2-11035746a054",
+    "Name": "Papua New Guinea",
+    "IsoCode": "PG"
+  },
+  {
+    "Id": "b3ac68ec-f1df-4245-823a-8d978684b4a6",
+    "Name": "Paraguay",
+    "IsoCode": "PY"
+  },
+  {
+    "Id": "2fef99ca-72da-4041-9eb0-73dce203b2a3",
+    "Name": "Peru",
+    "IsoCode": "PE"
+  },
+  {
+    "Id": "73e54319-1fca-42f5-8d0d-146b2cd7997e",
+    "Name": "Philippines",
+    "IsoCode": "PH"
+  },
+  {
+    "Id": "d9ea5ff0-47df-4a33-b359-4f9d70b4d8d8",
+    "Name": "Pitcairn",
+    "IsoCode": "PN"
+  },
+  {
+    "Id": "bb858458-e547-4c08-b2b6-a48c6cf44449",
+    "Name": "Poland",
+    "IsoCode": "PL"
+  },
+  {
+    "Id": "5aea6576-061c-4522-996a-0f2fec8e6e6b",
+    "Name": "Portugal",
+    "IsoCode": "PT"
+  },
+  {
+    "Id": "e7423b62-8f04-420e-9ff1-07ed9978d769",
+    "Name": "Puerto Rico",
+    "IsoCode": "PR"
+  },
+  {
+    "Id": "769d276d-5b23-4a03-84fe-83cac578d681",
+    "Name": "Qatar",
+    "IsoCode": "QA"
+  },
+  {
+    "Id": "1e5a081d-2655-4c66-9a57-e25ae8e83743",
+    "Name": "Réunion",
+    "IsoCode": "RE"
+  },
+  {
+    "Id": "4cb234b1-a624-450d-98a2-5411f887f04f",
+    "Name": "Romania",
+    "IsoCode": "RO"
+  },
+  {
+    "Id": "d6fac98d-4931-4b9d-bd69-fd64f462834a",
+    "Name": "Russian Federation",
+    "IsoCode": "RU"
+  },
+  {
+    "Id": "bcd03d3b-2288-4549-a06c-44d7c71c5274",
+    "Name": "Rwanda",
+    "IsoCode": "RW"
+  },
+  {
+    "Id": "ded79375-d6fe-48d6-b85f-51a0b896f0e8",
+    "Name": "Saint Barthélemy",
+    "IsoCode": "BL"
+  },
+  {
+    "Id": "1e6b1f96-1196-4668-b389-2ae4c1acfc6d",
+    "Name": "Saint Helena, Ascension and Tristan da Cunha",
+    "IsoCode": "SH"
+  },
+  {
+    "Id": "f8a8d77f-18a1-4bc7-bb88-23382539d350",
+    "Name": "Saint Kitts and Nevis",
+    "IsoCode": "KN"
+  },
+  {
+    "Id": "b37c8aed-25d4-45a3-9da0-d9d96a66519d",
+    "Name": "Saint Lucia",
+    "IsoCode": "LC"
+  },
+  {
+    "Id": "afc4a88a-7b32-41a7-a865-e9843979c243",
+    "Name": "Saint Martin (French part)",
+    "IsoCode": "MF"
+  },
+  {
+    "Id": "0a3081d0-9080-423c-a90c-5c0e7379d172",
+    "Name": "Saint Pierre and Miquelon",
+    "IsoCode": "PM"
+  },
+  {
+    "Id": "f170f851-43e8-4a22-9260-f30b8cfcb42c",
+    "Name": "Saint Vincent and the Grenadines",
+    "IsoCode": "VC"
+  },
+  {
+    "Id": "4ced6fbb-02a8-469f-a7d5-316721b66bc6",
+    "Name": "Samoa",
+    "IsoCode": "WS"
+  },
+  {
+    "Id": "2caa9c90-24d8-41cb-869d-4dd0efd67c36",
+    "Name": "San Marino",
+    "IsoCode": "SM"
+  },
+  {
+    "Id": "66731c23-1203-4c4b-ab96-93bfe91452ce",
+    "Name": "Sao Tome and Principe",
+    "IsoCode": "ST"
+  },
+  {
+    "Id": "1c0cddd3-24ab-4cc7-95c2-32ef614eebb6",
+    "Name": "Saudi Arabia",
+    "IsoCode": "SA"
+  },
+  {
+    "Id": "6c650119-1d91-4bbd-b27c-b38e5a92318f",
+    "Name": "Senegal",
+    "IsoCode": "SN"
+  },
+  {
+    "Id": "706b853f-f09c-42e2-9053-5cde84d244d6",
+    "Name": "Serbia",
+    "IsoCode": "RS"
+  },
+  {
+    "Id": "f00e24da-3519-4157-978a-a22e79971cba",
+    "Name": "Seychelles",
+    "IsoCode": "SC"
+  },
+  {
+    "Id": "67421c66-5936-4061-a6ad-812d78c80764",
+    "Name": "Sierra Leone",
+    "IsoCode": "SL"
+  },
+  {
+    "Id": "ff0a353d-b715-45f9-a6a4-d1722d1a2665",
+    "Name": "Singapore",
+    "IsoCode": "SG"
+  },
+  {
+    "Id": "e7ad69ce-25cb-4fb7-a5d0-4765ac2b2f0f",
+    "Name": "Sint Maarten (Dutch part)",
+    "IsoCode": "SX"
+  },
+  {
+    "Id": "804f9035-02bc-467d-9256-bbd329b78486",
+    "Name": "Slovakia",
+    "IsoCode": "SK"
+  },
+  {
+    "Id": "62a1755a-efd9-45de-bc2e-9cd9f70f795d",
+    "Name": "Slovenia",
+    "IsoCode": "SI"
+  },
+  {
+    "Id": "e0edf116-a3a9-4934-b726-d703a33b0439",
+    "Name": "Solomon Islands",
+    "IsoCode": "SB"
+  },
+  {
+    "Id": "c370ac47-9ab7-488f-90ed-cb6e3c53f96f",
+    "Name": "Somalia",
+    "IsoCode": "SO"
+  },
+  {
+    "Id": "75e5a5c7-79b7-4801-ac18-ff225c165e1c",
+    "Name": "South Africa",
+    "IsoCode": "ZA"
+  },
+  {
+    "Id": "80e82506-b2b1-4394-a787-aa2c8ca3ccd9",
+    "Name": "South Georgia and the South Sandwich Islands",
+    "IsoCode": "GS"
+  },
+  {
+    "Id": "4250dfb2-273d-42d6-88fc-fff4f0024c2e",
+    "Name": "South Sudan",
+    "IsoCode": "SS"
+  },
+  {
+    "Id": "5f6365e0-51cc-4900-a0b4-514db0243209",
+    "Name": "Spain",
+    "IsoCode": "ES"
+  },
+  {
+    "Id": "4971c989-7e72-4709-ac02-2d04ab0cdcc8",
+    "Name": "Sri Lanka",
+    "IsoCode": "LK"
+  },
+  {
+    "Id": "b85cdb9b-58f2-4f58-a36b-b94ebdca0fe6",
+    "Name": "Sudan",
+    "IsoCode": "SD"
+  },
+  {
+    "Id": "677b0e86-d18e-4389-8c05-a5a9cf70f894",
+    "Name": "Suriname",
+    "IsoCode": "SR"
+  },
+  {
+    "Id": "a63fc052-dbac-4d05-9871-18196df982f6",
+    "Name": "Svalbard and Jan Mayen",
+    "IsoCode": "SJ"
+  },
+  {
+    "Id": "4e639239-9ef8-45ec-87cd-1fd520729e9e",
+    "Name": "Swaziland",
+    "IsoCode": "SZ"
+  },
+  {
+    "Id": "40787921-4ebf-4e18-a464-93893f3c03e4",
+    "Name": "Sweden",
+    "IsoCode": "SE"
+  },
+  {
+    "Id": "b09ab2f8-3f57-4000-80bf-f064e74aa3ef",
+    "Name": "Switzerland",
+    "IsoCode": "CH"
+  },
+  {
+    "Id": "51fe84d0-9691-4710-acf4-939c8083edce",
+    "Name": "Syrian Arab Republic",
+    "IsoCode": "SY"
+  },
+  {
+    "Id": "7a651a6b-89e1-4c12-9428-57d2d9adc077",
+    "Name": "Taiwan, Province of China",
+    "IsoCode": "TW"
+  },
+  {
+    "Id": "7954d926-d02f-4ffe-8440-a607ceae3b2b",
+    "Name": "Tajikistan",
+    "IsoCode": "TJ"
+  },
+  {
+    "Id": "aea6563f-3f58-4b3d-b22a-03da5d71c4a5",
+    "Name": "Tanzania, United Republic of",
+    "IsoCode": "TZ"
+  },
+  {
+    "Id": "565dae9d-28c1-453d-93ea-09f4339998c1",
+    "Name": "Thailand",
+    "IsoCode": "TH"
+  },
+  {
+    "Id": "ea3e13c6-a04f-4b71-bfdc-c0b90df842cd",
+    "Name": "Timor-Leste",
+    "IsoCode": "TL"
+  },
+  {
+    "Id": "d0021841-7ba3-4d5c-bafd-0989e298e8e9",
+    "Name": "Togo",
+    "IsoCode": "TG"
+  },
+  {
+    "Id": "4b4383d3-3e4f-4359-9d63-e5f1679acc28",
+    "Name": "Tokelau",
+    "IsoCode": "TK"
+  },
+  {
+    "Id": "61412c63-e17f-4fc4-bfe6-f2d0a361b64e",
+    "Name": "Tonga",
+    "IsoCode": "TO"
+  },
+  {
+    "Id": "5121345e-f477-4a3d-a6a5-9a948ee3f468",
+    "Name": "Trinidad and Tobago",
+    "IsoCode": "TT"
+  },
+  {
+    "Id": "836f9c65-c32e-4874-b5d2-810dcf47f45e",
+    "Name": "Tunisia",
+    "IsoCode": "TN"
+  },
+  {
+    "Id": "d977cc20-9dd7-4511-a30c-96a65abb2857",
+    "Name": "Turkey",
+    "IsoCode": "TR"
+  },
+  {
+    "Id": "7bf4581a-34b8-4ed0-bf32-272609ba9004",
+    "Name": "Turkmenistan",
+    "IsoCode": "TM"
+  },
+  {
+    "Id": "7c2c11a0-c957-4b2e-9ba6-5875d1a02e32",
+    "Name": "Turks and Caicos Islands",
+    "IsoCode": "TC"
+  },
+  {
+    "Id": "5571a01f-61b4-4823-a022-a2a2cf4aa4b8",
+    "Name": "Tuvalu",
+    "IsoCode": "TV"
+  },
+  {
+    "Id": "b06d98e8-87d1-479e-ab2f-14d79a83b049",
+    "Name": "Uganda",
+    "IsoCode": "UG"
+  },
+  {
+    "Id": "04691cca-65d8-4a94-b90d-3baef1d781f0",
+    "Name": "Ukraine",
+    "IsoCode": "UA"
+  },
+  {
+    "Id": "549a27a7-c071-49b1-86bf-32c4aa42a580",
+    "Name": "United Arab Emirates",
+    "IsoCode": "AE"
+  },
+  {
+    "Id": "502aa8ec-6549-46cd-9620-7b86077909a2",
+    "Name": "United Kingdom",
+    "IsoCode": "GB"
+  },
+  {
+    "Id": "16ffb866-b02d-497c-9b41-a25df5ae3f1a",
+    "Name": "United States",
+    "IsoCode": "US"
+  },
+  {
+    "Id": "450e922e-71c7-4e15-9edd-9dea78aa834d",
+    "Name": "United States Minor Outlying Islands",
+    "IsoCode": "UM"
+  },
+  {
+    "Id": "1249ce04-0f88-45f3-b124-82f79cc4aee2",
+    "Name": "Uruguay",
+    "IsoCode": "UY"
+  },
+  {
+    "Id": "5768a53d-84f3-4e86-82c8-8e4737663a1c",
+    "Name": "Uzbekistan",
+    "IsoCode": "UZ"
+  },
+  {
+    "Id": "a43c229e-d4b4-459e-8ddf-4aaad70b55fc",
+    "Name": "Vanuatu",
+    "IsoCode": "VU"
+  },
+  {
+    "Id": "27fa357e-e2e3-429c-8a32-7de18fa5b5c4",
+    "Name": "Venezuela, Bolivarian Republic of",
+    "IsoCode": "VE"
+  },
+  {
+    "Id": "4ae1ebec-94b9-4764-aafe-39b9bfcd0046",
+    "Name": "Viet Nam",
+    "IsoCode": "VN"
+  },
+  {
+    "Id": "06769ece-1b4b-4f50-9413-b006bd8df8ee",
+    "Name": "Virgin Islands, British",
+    "IsoCode": "VG"
+  },
+  {
+    "Id": "8d659065-9e60-4832-8d7c-907bfb651231",
+    "Name": "Virgin Islands, U.S.",
+    "IsoCode": "VI"
+  },
+  {
+    "Id": "f12a2dd6-2f0b-461a-aa36-1cda5a5f21cc",
+    "Name": "Wallis and Futuna",
+    "IsoCode": "WF"
+  },
+  {
+    "Id": "9ae9be50-62a7-49ee-aa68-6a0e520f3523",
+    "Name": "Western Sahara",
+    "IsoCode": "EH"
+  },
+  {
+    "Id": "ead1148d-6065-4344-af3f-a67d1b211ddc",
+    "Name": "Yemen",
+    "IsoCode": "YE"
+  },
+  {
+    "Id": "bf617e76-5534-4878-87d3-72eba6ea78bd",
+    "Name": "Zambia",
+    "IsoCode": "ZM"
+  },
+  {
+    "Id": "bd7f0686-ec86-4691-9485-abd78b47a3f9",
+    "Name": "Zimbabwe",
+    "IsoCode": "ZW"
+  }
+]

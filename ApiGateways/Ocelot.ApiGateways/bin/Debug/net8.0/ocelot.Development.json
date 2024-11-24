@@ -1,0 +1,36 @@
+{
+    "Routes": [
+        {
+            "UpstreamPathTemplate": "/api/Country",
+            "UpstreamHttpMethod": [ "GET", "POST" ],
+            "DownstreamPathTemplate": "/api/v1/Country",
+            "AddHeadersToRequest": {
+                "CountryName": "{countryName}"
+            },
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 3100
+                }
+            ],
+            "FileCacheOptions": { "TtlSeconds": 30 }
+        },
+        {
+            "UpstreamPathTemplate": "/api/Branch",
+            "UpstreamHttpMethod": [ "PUT", "POST" ],
+            "DownstreamPathTemplate": "/api/v1/Branch",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 3101
+                }
+            ],
+            "FileCacheOptions": { "TtlSeconds": 30 }
+        }
+    ],
+    "GlobalConfiguration": {
+        "BaseUrl": "http://localhost:8000"
+    }
+}

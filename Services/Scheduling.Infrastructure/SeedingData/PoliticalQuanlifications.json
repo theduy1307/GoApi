@@ -1,0 +1,26 @@
+[
+ {
+  "Id": "7ca65b10-3701-49d4-8038-562fb9abbded",
+  "Name": "S\u01a1 c\u1ea5p",
+  "CreateDate": "2024-10-26 16:29:00+07",
+  "CreatedBy": "NULL",
+  "LastModifiedBy": "NULL",
+  "LastModifiedDate": "NULL"
+ },
+ {
+  "Id": "4418de32-1691-492f-b253-9f7ab63bb068",
+  "Name": "Trung c\u1ea5p",
+  "CreateDate": "2024-10-26 16:29:00+07",
+  "CreatedBy": "NULL",
+  "LastModifiedBy": "NULL",
+  "LastModifiedDate": "NULL"
+ },
+ {
+  "Id": "342e91a8-ef49-48a8-825b-65b2e4a02f0a",
+  "Name": "Cao c\u1ea5p",
+  "CreateDate": "NULL",
+  "CreatedBy": "NULL",
+  "LastModifiedBy": "NULL",
+  "LastModifiedDate": "NULL"
+ }
+]

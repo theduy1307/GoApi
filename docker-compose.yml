@@ -1,0 +1,22 @@
+﻿services:
+  masterdata.api:
+    image: masterdata.api
+    build:
+      context: .
+      dockerfile: Services/MasterData.Api/Dockerfile
+    ports:
+      - "5001:5001"
+  scheduling.api:
+    image: scheduling.api
+    build:
+      context: .
+      dockerfile: Services/Scheduling.Api/Dockerfile
+    ports:
+      - "5002:5002"
+  testapi:
+    image: testapi
+    build:
+      context: .
+      dockerfile: Services/TestApi/Dockerfile
+    ports:
+      - "5003:5003"

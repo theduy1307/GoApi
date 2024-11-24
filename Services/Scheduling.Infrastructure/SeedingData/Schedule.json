@@ -1,0 +1,15 @@
+{
+  "name": "Hành chính",
+  "expired": null,
+  "compensatoryTime": true,
+  "compensatoryTimeForMidShiftWork": true,
+  "description": "string",
+  "scheduleDetails": [
+    {
+      "name": "Ca đầu",
+      "fromTime": "08:00:00",
+      "toTime": "12:00:00",
+      "required": true
+    }
+  ]
+}

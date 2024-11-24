@@ -1,0 +1,124 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/theduy/Documents/GO Platform/GoSolution 21.12.19/Services/Schedule.Application/Schedule.Application.csproj": {}
+  },
+  "projects": {
+    "/Users/theduy/Documents/GO Platform/GoSolution 21.12.19/Services/Schedule.Application/Schedule.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/theduy/Documents/GO Platform/GoSolution 21.12.19/Services/Schedule.Application/Schedule.Application.csproj",
+        "projectName": "Schedule.Application",
+        "projectPath": "/Users/theduy/Documents/GO Platform/GoSolution 21.12.19/Services/Schedule.Application/Schedule.Application.csproj",
+        "packagesPath": "/Users/theduy/.nuget/packages/",
+        "outputPath": "/Users/theduy/Documents/GO Platform/GoSolution 21.12.19/Services/Schedule.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/theduy/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/theduy/Documents/GO Platform/GoSolution 21.12.19/Services/Schedule.Core/Schedule.Core.csproj": {
+                "projectPath": "/Users/theduy/Documents/GO Platform/GoSolution 21.12.19/Services/Schedule.Core/Schedule.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/theduy/Documents/GO Platform/GoSolution 21.12.19/Services/Schedule.Core/Schedule.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/theduy/Documents/GO Platform/GoSolution 21.12.19/Services/Schedule.Core/Schedule.Core.csproj",
+        "projectName": "Schedule.Core",
+        "projectPath": "/Users/theduy/Documents/GO Platform/GoSolution 21.12.19/Services/Schedule.Core/Schedule.Core.csproj",
+        "packagesPath": "/Users/theduy/.nuget/packages/",
+        "outputPath": "/Users/theduy/Documents/GO Platform/GoSolution 21.12.19/Services/Schedule.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/theduy/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "GoSolution.HRM.Entity": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  masterdata.api:
+    build:
+      context: "/Users/theduy/Documents/GO Platform/GoSolution 21.12.19"
+      dockerfile: "Services/MasterData.Api/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/MasterData.Api.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "masterdata.api:dev"
+    ports: []
+    volumes:
+    - "/Users/theduy/.nuget/packages:/home/app/.nuget/packages"
+    - "/Users/theduy/Documents/GO Platform/GoSolution 21.12.19/Services/MasterData.Api:/app:rw"
+    - "/Users/theduy/Documents/GO Platform/GoSolution 21.12.19:/src:rw"
+    working_dir: "/app"
+  scheduling.api:
+    build:
+      context: "/Users/theduy/Documents/GO Platform/GoSolution 21.12.19"
+      dockerfile: "Services/Scheduling.Api/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/Scheduling.Api.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "scheduling.api:dev"
+    ports: []
+    volumes:
+    - "/Users/theduy/.nuget/packages:/home/app/.nuget/packages"
+    - "/Users/theduy/Documents/GO Platform/GoSolution 21.12.19/Services/Scheduling.Api:/app:rw"
+    - "/Users/theduy/Documents/GO Platform/GoSolution 21.12.19:/src:rw"
+    working_dir: "/app"

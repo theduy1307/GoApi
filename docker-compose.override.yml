@@ -1,0 +1,13 @@
+﻿services:
+  masterdata.api:
+    image: masterdata.api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "5001:5001"
+  scheduling.api:
+    image: scheduling.api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "5002:5002"

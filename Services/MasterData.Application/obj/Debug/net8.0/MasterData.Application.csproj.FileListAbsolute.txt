@@ -1,0 +1,31 @@
+/Users/theduy/Documents/GO Platform/GoSolution/Services/MasterData.Application/bin/Debug/net8.0/MasterData.Application.deps.json
+/Users/theduy/Documents/GO Platform/GoSolution/Services/MasterData.Application/bin/Debug/net8.0/MasterData.Application.dll
+/Users/theduy/Documents/GO Platform/GoSolution/Services/MasterData.Application/bin/Debug/net8.0/MasterData.Application.pdb
+/Users/theduy/Documents/GO Platform/GoSolution/Services/MasterData.Application/bin/Debug/net8.0/MasterData.Core.dll
+/Users/theduy/Documents/GO Platform/GoSolution/Services/MasterData.Application/bin/Debug/net8.0/MasterData.Core.pdb
+/Users/theduy/Documents/GO Platform/GoSolution/Services/MasterData.Application/obj/Debug/net8.0/MasterData.Application.csproj.AssemblyReference.cache
+/Users/theduy/Documents/GO Platform/GoSolution/Services/MasterData.Application/obj/Debug/net8.0/MasterData.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/theduy/Documents/GO Platform/GoSolution/Services/MasterData.Application/obj/Debug/net8.0/MasterData.Application.AssemblyInfoInputs.cache
+/Users/theduy/Documents/GO Platform/GoSolution/Services/MasterData.Application/obj/Debug/net8.0/MasterData.Application.AssemblyInfo.cs
+/Users/theduy/Documents/GO Platform/GoSolution/Services/MasterData.Application/obj/Debug/net8.0/MasterData.Application.csproj.CoreCompileInputs.cache
+/Users/theduy/Documents/GO Platform/GoSolution/Services/MasterData.Application/obj/Debug/net8.0/MasterDa.876055E5.Up2Date
+/Users/theduy/Documents/GO Platform/GoSolution/Services/MasterData.Application/obj/Debug/net8.0/MasterData.Application.dll
+/Users/theduy/Documents/GO Platform/GoSolution/Services/MasterData.Application/obj/Debug/net8.0/refint/MasterData.Application.dll
+/Users/theduy/Documents/GO Platform/GoSolution/Services/MasterData.Application/obj/Debug/net8.0/MasterData.Application.pdb
+/Users/theduy/Documents/GO Platform/GoSolution/Services/MasterData.Application/obj/Debug/net8.0/ref/MasterData.Application.dll
+/Users/theduy/Documents/GO Platform/GoSolution 21.12.19/Services/MasterData.Application/bin/Debug/net8.0/MasterData.Application.deps.json
+/Users/theduy/Documents/GO Platform/GoSolution 21.12.19/Services/MasterData.Application/bin/Debug/net8.0/MasterData.Application.dll
+/Users/theduy/Documents/GO Platform/GoSolution 21.12.19/Services/MasterData.Application/bin/Debug/net8.0/MasterData.Application.pdb
+/Users/theduy/Documents/GO Platform/GoSolution 21.12.19/Services/MasterData.Application/bin/Debug/net8.0/MasterData.Core.dll
+/Users/theduy/Documents/GO Platform/GoSolution 21.12.19/Services/MasterData.Application/bin/Debug/net8.0/MasterData.Core.pdb
+/Users/theduy/Documents/GO Platform/GoSolution 21.12.19/Services/MasterData.Application/obj/Debug/net8.0/MasterData.Application.csproj.AssemblyReference.cache
+/Users/theduy/Documents/GO Platform/GoSolution 21.12.19/Services/MasterData.Application/obj/Debug/net8.0/MasterData.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/theduy/Documents/GO Platform/GoSolution 21.12.19/Services/MasterData.Application/obj/Debug/net8.0/MasterData.Application.AssemblyInfoInputs.cache
+/Users/theduy/Documents/GO Platform/GoSolution 21.12.19/Services/MasterData.Application/obj/Debug/net8.0/MasterData.Application.AssemblyInfo.cs
+/Users/theduy/Documents/GO Platform/GoSolution 21.12.19/Services/MasterData.Application/obj/Debug/net8.0/MasterData.Application.csproj.CoreCompileInputs.cache
+/Users/theduy/Documents/GO Platform/GoSolution 21.12.19/Services/MasterData.Application/obj/Debug/net8.0/MasterData.Application.sourcelink.json
+/Users/theduy/Documents/GO Platform/GoSolution 21.12.19/Services/MasterData.Application/obj/Debug/net8.0/MasterDa.876055E5.Up2Date
+/Users/theduy/Documents/GO Platform/GoSolution 21.12.19/Services/MasterData.Application/obj/Debug/net8.0/MasterData.Application.dll
+/Users/theduy/Documents/GO Platform/GoSolution 21.12.19/Services/MasterData.Application/obj/Debug/net8.0/refint/MasterData.Application.dll
+/Users/theduy/Documents/GO Platform/GoSolution 21.12.19/Services/MasterData.Application/obj/Debug/net8.0/MasterData.Application.pdb
+/Users/theduy/Documents/GO Platform/GoSolution 21.12.19/Services/MasterData.Application/obj/Debug/net8.0/ref/MasterData.Application.dll
