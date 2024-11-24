@@ -1,34 +1,49 @@
-name: Deploy .NET Core to IIS
+name: Deploy ASP.NET Core API to IIS
 
 on:
   push:
     branches:
-      - main
+      - main  # Triển khai khi có push lên nhánh chính
 
 jobs:
-  build:
+  deploy:
     runs-on: self-hosted
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+    # 1. Checkout mã nguồn
+    - name: Checkout Code
+      uses: actions/checkout@v3
 
-      - name: Setup .NET Core
-        uses: actions/setup-dotnet@v3
-        with:
-          dotnet-version: '8.0.x'
+    # 2. Cài đặt .NET SDK (nếu cần thiết)
+    - name: Setup .NET SDK
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '7.0.x' # Cập nhật version theo project của bạn
 
-      - name: Install dependencies
-        run: dotnet restore
+    # 3. Khôi phục các package cần thiết
+    - name: Restore dependencies
+      run: dotnet restore
 
-      - name: Build
-        run: dotnet build --configuration Release --no-restore
+    # 4. Build ứng dụng
+    - name: Build API
+      run: dotnet publish -c Release -o out
 
-      - name: Publish
-        run: dotnet publish --configuration Release --output ./publish
+    # 5. Triển khai lên IIS
+    - name: Deploy to IIS
+      run: |
+        # Thư mục đích trên IIS server (Cập nhật đường dẫn này)
+        $iisPath = "C:\inetpub\wwwroot\MyAspNetApi"
+        $sourcePath = "$(pwd)\out"
 
-      - name: Deploy to IIS
-        run: |
-          iisreset /stop
-          Copy-Item ./publish/* C:\Users\super-admin\IIS Resource\TestCICD -Recurse -Force
-          iisreset /start
+        # Kiểm tra và xóa thư mục cũ nếu cần
+        if (Test-Path $iisPath) {
+          Remove-Item -Recurse -Force -Path $iisPath
+        }
+
+        # Tạo lại thư mục đích
+        New-Item -ItemType Directory -Path $iisPath
+
+        # Sao chép file lên IIS
+        Copy-Item -Path "$sourcePath\*" -Destination $iisPath -Recurse
+
+        Write-Host "Deployment completed successfully."
