@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MasterData.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0a31f726b80d3df9d9bfa79d01cc16b930fe6de")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68637afc1938c61b1e9ba9fa502d4a4b923a514c")]
 [assembly: System.Reflection.AssemblyProductAttribute("MasterData.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MasterData.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
