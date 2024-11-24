@@ -6,8 +6,8 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     </PropertyGroup>
-    <Target Name="Restore">
-        <MSBuild Projects="$(root)\GoSolution.sln" Targets="Restore" />
+    <Target Name="Restore" BeforeTargets="Build">
+        <Exec Command="dotnet restore $(MSBuildProjectDirectory)\$(MSBuildProjectName).csproj" />
     </Target>
     <ItemGroup>
         <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.10">

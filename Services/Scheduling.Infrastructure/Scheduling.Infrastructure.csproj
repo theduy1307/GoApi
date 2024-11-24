@@ -6,7 +6,9 @@
         <Nullable>enable</Nullable>
         <RootNamespace>Schedule.Infrastructure</RootNamespace>
     </PropertyGroup>
-
+    <Target Name="Restore" BeforeTargets="Build">
+        <Exec Command="dotnet restore $(MSBuildProjectDirectory)\$(MSBuildProjectName).csproj" />
+    </Target>
     <ItemGroup>
       <ProjectReference Include="..\Scheduling.Application\Scheduling.Application.csproj" />
     </ItemGroup>

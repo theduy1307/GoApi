@@ -5,7 +5,9 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
-
+    <Target Name="Restore" BeforeTargets="Build">
+        <Exec Command="dotnet restore $(MSBuildProjectDirectory)\$(MSBuildProjectName).csproj" />
+    </Target>
     <ItemGroup>
       <PackageReference Include="GoSolution.HRM.Entity" Version="1.0.3" />
     </ItemGroup>
