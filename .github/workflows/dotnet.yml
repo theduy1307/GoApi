@@ -1,0 +1,62 @@
+name: Deploy ASP.NET Core 8 to IIS
+
+on:
+  push:
+    branches:
+      - main  # Tự động triển khai khi có push lên nhánh main
+
+jobs:
+  deploy:
+    runs-on: self-hosted  # Sử dụng self-hosted runner
+
+    steps:
+    # 1. Checkout mã nguồn từ repository
+    - name: Checkout Code
+      uses: actions/checkout@v3
+
+    # 2. Cài đặt .NET SDK 8.0 (vì bạn đang sử dụng .NET Core 8)
+    - name: Setup .NET SDK
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '8.0.x'
+
+    # 3. Khôi phục các package nuget
+    - name: Restore dependencies
+      run: dotnet restore
+
+    # 4. Build ứng dụng và publish ra thư mục `out`
+    - name: Build and Publish API
+      run: dotnet publish -c Release -r win-x64 --self-contained -o out
+
+    # 5. Triển khai ứng dụng lên IIS
+    - name: Deploy to IIS
+      run: |
+        # Đường dẫn tới thư mục IIS (Cập nhật nếu cần)
+        $iisPath = "C:\Users\super-admin\IIS Resource\TestCICD"
+        
+        # Thư mục output từ việc build (thư mục out)
+        $sourcePath = "$(pwd)\out"
+
+        # Kiểm tra nếu thư mục đích tồn tại, xóa nó đi
+        if (Test-Path $iisPath) {
+          Remove-Item -Recurse -Force -Path $iisPath
+        }
+
+        # Tạo lại thư mục đích trên IIS
+        New-Item -ItemType Directory -Path $iisPath
+
+        # Sao chép tất cả tệp từ thư mục output vào thư mục IIS
+        Copy-Item -Path "$sourcePath\*" -Destination $iisPath -Recurse
+
+        Write-Host "Deployment completed successfully."
+
+    # 6. (Tuỳ chọn) Kiểm tra xem IIS đã hoạt động đúng chưa
+    - name: Check IIS status
+      run: |
+        $iisService = Get-Service W3SVC
+        if ($iisService.Status -eq "Running") {
+          Write-Host "IIS is running"
+        } else {
+          Write-Host "IIS is not running. Starting IIS..."
+          Start-Service W3SVC
+        }
