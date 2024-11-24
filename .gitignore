@@ -1,0 +1,49 @@
+# Windows OS files
+Thumbs.db
+ehthumbs.db
+
+# ASP.NET Core
+bin/
+obj/
+
+# ASP.NET Core environment variables
+appsettings*.json
+secrets.json
+
+# ASP.NET Core log files
+*.log
+
+# Rider files
+.idea/
+
+# Visual Studio for Mac
+.vscode/
+
+# .NET Core build outputs
+out/
+
+# User-specific files
+.vs/
+.vscode/
+.idea/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# User-specific file types
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# ASP.NET Core publish directory
+publish/
+
+# NPM packages (if you use Node.js for frontend)
+node_modules/
+
+# JetBrains Rider cache & project-specific settings
+.idea/
