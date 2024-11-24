@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "w0ZgOg/UXW446raA0PKKPFqTka4p82l4T0TZXU1NjIQAY6yAQbiS9Kzru9avCJ6T1/dF8Qsa3/l37SWODjfwSQ==",
+  "dgSpecHash": "wloxXFBysys=",
   "success": true,
   "projectFilePath": "/Users/theduy/Documents/GO Platform/GoSolution/ApiGateways/Ocelot.ApiGateways/Ocelot.ApiGateways.csproj",
   "expectedPackageFiles": [
@@ -35,7 +35,10 @@
     "/Users/theduy/.nuget/packages/system.security.accesscontrol/4.5.0/system.security.accesscontrol.4.5.0.nupkg.sha512",
     "/Users/theduy/.nuget/packages/system.security.cryptography.protecteddata/4.5.0/system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
     "/Users/theduy/.nuget/packages/system.security.permissions/4.5.0/system.security.permissions.4.5.0.nupkg.sha512",
-    "/Users/theduy/.nuget/packages/system.security.principal.windows/4.5.0/system.security.principal.windows.4.5.0.nupkg.sha512"
+    "/Users/theduy/.nuget/packages/system.security.principal.windows/4.5.0/system.security.principal.windows.4.5.0.nupkg.sha512",
+    "/Users/theduy/.nuget/packages/microsoft.netcore.app.runtime.win-x64/8.0.6/microsoft.netcore.app.runtime.win-x64.8.0.6.nupkg.sha512",
+    "/Users/theduy/.nuget/packages/microsoft.aspnetcore.app.runtime.win-x64/8.0.6/microsoft.aspnetcore.app.runtime.win-x64.8.0.6.nupkg.sha512",
+    "/Users/theduy/.nuget/packages/microsoft.netcore.app.host.win-x64/8.0.6/microsoft.netcore.app.host.win-x64.8.0.6.nupkg.sha512"
   ],
   "logs": []
 }

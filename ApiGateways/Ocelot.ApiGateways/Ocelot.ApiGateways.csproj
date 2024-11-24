@@ -5,7 +5,9 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
-
+    <Target Name="Restore" BeforeTargets="Build">
+        <Exec Command="dotnet restore $(MSBuildProjectDirectory)\$(MSBuildProjectName).csproj" />
+    </Target>
     <ItemGroup>
       <PackageReference Include="Ocelot" Version="23.3.6" />
       <PackageReference Include="Ocelot.Cache.CacheManager" Version="23.3.6" />
