@@ -1,12 +1,10 @@
 using GoSolution.Entity;
 using GoSolution.Entity.Entities;
 using MasterData.Core.Repositories;
+using Microsoft.EntityFrameworkCore;
 
 namespace MasterData.Infrastructure.Repositories;
 
-public class EmployeeRepository : RepositoryBase<Employee>, IEmployeeRepository
+public class EmployeeRepository(PoseidonDbContext context) : RepositoryBase<Employee>(context), IEmployeeRepository
 {
-    public EmployeeRepository(PoseidonDbContext context) : base(context)
-    {
-    }
 }

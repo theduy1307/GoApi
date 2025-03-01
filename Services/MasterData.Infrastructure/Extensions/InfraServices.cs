@@ -1,5 +1,7 @@
 using GoSolution.Entity;
+using MasterData.Application.Abtractions;
 using MasterData.Core.Repositories;
+using MasterData.Infrastructure.Authentication;
 using MasterData.Infrastructure.Repositories;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -12,8 +14,12 @@ public static class InfraServices
     {
         serviceCollection.AddDbContext<PoseidonDbContext>();
         serviceCollection.AddScoped(typeof(IAsyncRepository<>), typeof(RepositoryBase<>));
-        serviceCollection.AddScoped<ICountryRepository, CountryRepository>();
+        serviceCollection.AddScoped<IJwtProvider, JwtProvider>();
+        serviceCollection.AddScoped<IPasswordProvider, PasswordProvider>();
         serviceCollection.AddScoped<IEmployeeRepository, EmployeeRepository>();
+        serviceCollection.AddScoped<IBranchRepository, BranchRepository>();
+        serviceCollection.AddScoped<IScheduleRepository, ScheduleRepository>();
+        serviceCollection.AddScoped<IAccountRepository, AccountRepository>();
         return serviceCollection;
     }
 }

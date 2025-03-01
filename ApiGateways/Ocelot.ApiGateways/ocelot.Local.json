@@ -6,7 +6,7 @@
             "DownstreamHostAndPorts": [
                 {
                     "Host": "http://localhost",
-                    "Port": 3100
+                    "Port": 5000
                 }
             ],
             "UpstreamPathTemplate": "/Country",
@@ -19,7 +19,7 @@
             "DownstreamHostAndPorts": [
                 {
                     "Host": "http://localhost",
-                    "Port": 3100
+                    "Port": 5000
                 }
             ],
             "UpstreamPathTemplate": "/Country/{countryName}",
