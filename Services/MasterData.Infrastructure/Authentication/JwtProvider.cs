@@ -24,16 +24,22 @@ public class JwtProvider : IJwtProvider
             new(JwtRegisteredClaimNames.Name, string.Join(" ", new[] { employee.FirstName, employee.MiddleName, employee.LastName }.Where(s => !string.IsNullOrWhiteSpace(s)))),
             new(JwtRegisteredClaimNames.Email, employee.Account?.Username ?? string.Empty)
         };
-        var signinCredentials = new SigningCredentials(
+        var signingCredentials = new SigningCredentials(
             new SymmetricSecurityKey(
                 Encoding.UTF8.GetBytes(_options.SecretKey)),
             SecurityAlgorithms.HmacSha256);
+
         var token = new JwtSecurityToken(
             _options.Issuer,
             _options.Audience,
-            claims, null,
-            DateTime.UtcNow.AddHours(1), 
-            signinCredentials);
-        return new JwtSecurityTokenHandler().WriteToken(token);
+            claims,
+            null,
+            DateTime.UtcNow.AddHours(1),
+            signingCredentials);
+
+        var tokenValue = new JwtSecurityTokenHandler()
+            .WriteToken(token);
+
+        return tokenValue;
     }
 }

@@ -11,12 +11,12 @@ public class PasswordProvider : IPasswordProvider
     public (string salt, string hash) HashPassword(string password)
     {
         using var rng = new RNGCryptoServiceProvider();
-        byte[] saltBytes = new byte[SALT_SIZE];
+        //byte[] saltBytes = new byte[SALT_SIZE];
+        var saltBytes = Convert.FromBase64String("8vNWcwRa+ThpJvLqUnlGRQ==");
         rng.GetBytes(saltBytes); // Tạo salt ngẫu nhiên
 
         using var pbkdf2 = new Rfc2898DeriveBytes(password, saltBytes, INTERATIONS, HashAlgorithmName.SHA256);
         byte[] hashBytes = pbkdf2.GetBytes(KEY_SIZE);
-
         return (Convert.ToBase64String(saltBytes), Convert.ToBase64String(hashBytes));
     }
 
@@ -27,7 +27,6 @@ public class PasswordProvider : IPasswordProvider
 
         using var pbkdf2 = new Rfc2898DeriveBytes(password, saltBytes, INTERATIONS, HashAlgorithmName.SHA256);
         var hashBytes = pbkdf2.GetBytes(KEY_SIZE);
-
         return CryptographicOperations.FixedTimeEquals(hashBytes, storedHashBytes);
     }
 }

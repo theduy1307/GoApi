@@ -1,10 +1,13 @@
+using System.Text;
 using GoSolution.Entity;
 using MasterData.Application.Abtractions;
 using MasterData.Core.Repositories;
 using MasterData.Infrastructure.Authentication;
 using MasterData.Infrastructure.Repositories;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.IdentityModel.Tokens;
 
 namespace MasterData.Infrastructure.Extensions;
 
