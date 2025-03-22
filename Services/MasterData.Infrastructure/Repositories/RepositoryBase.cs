@@ -23,10 +23,18 @@ public class RepositoryBase<T> : IAsyncRepository<T> where T : class
         return await _context.Set<T>().Where(predicate).ToListAsync();
     }
 
+    public async Task<IReadOnlyList<T>> GetPagingAsync(int pageIndex, int pageSize)
+    {
+        return await _context.Set<T>().Skip((pageIndex - 1) * pageSize)
+            .Take(pageSize).ToListAsync();
+    }
+
     public async Task<T> GetByIdAsync(Guid id)
     {
         return await _context.Set<T>().FindAsync(id);
     }
+    
+    
 
     public async Task<T> AddAsync(T entity)
     {
@@ -45,5 +53,10 @@ public class RepositoryBase<T> : IAsyncRepository<T> where T : class
     {
         _context.Set<T>().Remove(entity);
         await _context.SaveChangesAsync();
+    }
+
+    public async Task<int> CountAsync()
+    {
+        return await _context.Set<T>().CountAsync();
     }
 }
