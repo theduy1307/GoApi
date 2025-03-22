@@ -47,3 +47,4 @@ node_modules/
 
 # JetBrains Rider cache & project-specific settings
 .idea/
+/Services/MasterData/MasterData.Api/bin
