@@ -2,18 +2,18 @@ using AutoMapper;
 using MasterData.Application.Dtos;
 using MasterData.Application.Queries;
 using MasterData.Application.Services;
+using MasterData.Core.Shared;
 using MediatR;
 
 namespace MasterData.Application.Handlers.Queries;
 
-public class ParseCvInformationQueryHandler(IJobsGoService jobsGoService, IMapper mapper) : IRequestHandler<ParseCvInformationQuery, CandidateDto>
+public class ParseCvInformationQueryHandler(IJobsGoService jobsGoService, IMapper mapper) : IRequestHandler<ParseCvInformationQuery, JobsGoResponse>
 {
     private readonly IJobsGoService _jobsGoService = jobsGoService;
     private readonly IMapper _mapper = mapper;
 
-    public async Task<CandidateDto> Handle(ParseCvInformationQuery request, CancellationToken cancellationToken)
+    public async Task<JobsGoResponse> Handle(ParseCvInformationQuery request, CancellationToken cancellationToken)
     {
-        var response = await _jobsGoService.GetCvInformation(request.CvFile);
-        return _mapper.Map<CandidateDto>(response);
+        return await _jobsGoService.GetCvInformation(request.CvFile);
     }
 }

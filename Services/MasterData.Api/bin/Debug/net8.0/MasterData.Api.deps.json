@@ -83,7 +83,7 @@
           }
         }
       },
-      "GoSolution.HRM.Entity/1.1.3": {
+      "GoSolution.HRM.Entity/2.0.1": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.10",
           "Microsoft.Extensions.Configuration": "8.0.0",
@@ -94,8 +94,8 @@
         },
         "runtime": {
           "lib/net8.0/GoSolution.Entity.dll": {
-            "assemblyVersion": "1.1.3.0",
-            "fileVersion": "1.1.3.0"
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
           }
         }
       },
@@ -1543,7 +1543,7 @@
       },
       "MasterData.Core/1.0.0": {
         "dependencies": {
-          "GoSolution.HRM.Entity": "1.1.3"
+          "GoSolution.HRM.Entity": "2.0.1"
         },
         "runtime": {
           "MasterData.Core.dll": {}
@@ -1608,12 +1608,12 @@
       "path": "fluentvalidation.dependencyinjectionextensions/11.10.0",
       "hashPath": "fluentvalidation.dependencyinjectionextensions.11.10.0.nupkg.sha512"
     },
-    "GoSolution.HRM.Entity/1.1.3": {
+    "GoSolution.HRM.Entity/2.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+gdb28DHDQKNUe7vckEnHpqmOmBbELAU7IXW9H2FxogArt2WZjrRTwLA3b/4DEkfCBIBSfbhsq4jNBS05r6rjw==",
-      "path": "gosolution.hrm.entity/1.1.3",
-      "hashPath": "gosolution.hrm.entity.1.1.3.nupkg.sha512"
+      "sha512": "sha512-US4WjGKY7pgQSu4jNAj48eG5p3S6tuSav89vRgLD9NyIvWfiCfLyRy9BJ+TbaoVKoDGEQqaMdZXbCZZZNt9nzA==",
+      "path": "gosolution.hrm.entity/2.0.1",
+      "hashPath": "gosolution.hrm.entity.2.0.1.nupkg.sha512"
     },
     "Humanizer.Core/2.14.1": {
       "type": "package",

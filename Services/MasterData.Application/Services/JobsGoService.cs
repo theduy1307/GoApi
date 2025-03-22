@@ -28,8 +28,8 @@ public class JobsGoService(HttpClient httpClient) : IJobsGoService
         if (jobsGoResponse.IsSuccessStatusCode)
         {
             var jsonData = await jobsGoResponse.Content.ReadAsStringAsync();
-            var response = JsonSerializer.Deserialize<JobsGoResponse>(jsonData) ?? new JobsGoResponse();
-            return response;
+            var response = JsonSerializer.Deserialize<JobsGoApiResult>(jsonData);
+            return response.Data;
         }
         return new JobsGoResponse();
     }
