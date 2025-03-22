@@ -1,4 +1,6 @@
+using System.Text.Json;
 using Asp.Versioning;
+using MasterData.Api.Middlewares;
 using MasterData.Api.OptionsSetup;
 using MasterData.Application.Extensions;
 using MasterData.Infrastructure.Extensions;
@@ -10,7 +12,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddControllers().AddJsonOptions(options =>
+{
+    options.JsonSerializerOptions.PropertyNamingPolicy = JsonNamingPolicy.SnakeCaseLower;
+});
 // Add API Versioning
 builder.Services.AddApiVersioning(options =>
 {
@@ -25,6 +30,16 @@ builder.Services.AddApplicationService();
 builder.Services.AddInfraServices(builder.Configuration);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll",
+        policy =>
+        {
+            policy.AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader();
+        });
+});
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "MasterData Api", Version = "v1" });
@@ -69,10 +84,10 @@ var app = builder.Build();
     app.UseSwagger();
     app.UseSwaggerUI();
 // }
-
+app.UseCors("AllowAll");
+app.UseMiddleware<ErrorHandlingMiddleware>();
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
-
 app.Run();

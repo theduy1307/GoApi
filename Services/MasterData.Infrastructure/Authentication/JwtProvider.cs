@@ -21,7 +21,7 @@ public class JwtProvider : IJwtProvider
         var claims = new Claim[]
         {
             new Claim(JwtRegisteredClaimNames.Sub, employee.Id.ToString()),
-            new(JwtRegisteredClaimNames.Name, string.Join(" ", new[] { employee.FirstName, employee.MiddleName, employee.LastName }.Where(s => !string.IsNullOrWhiteSpace(s)))),
+            new(JwtRegisteredClaimNames.Name, employee.FullName),
             new(JwtRegisteredClaimNames.Email, employee.Account?.Username ?? string.Empty)
         };
         var signingCredentials = new SigningCredentials(

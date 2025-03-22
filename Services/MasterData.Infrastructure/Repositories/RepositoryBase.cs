@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace MasterData.Infrastructure.Repositories;
 
-public class RepositoryBase<T> : IAsyncRepository<T> where T : EntityBase
+public class RepositoryBase<T> : IAsyncRepository<T> where T : class
 {
     protected readonly PoseidonDbContext _context;
     public RepositoryBase(PoseidonDbContext context)

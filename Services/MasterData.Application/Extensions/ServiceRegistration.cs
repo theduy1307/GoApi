@@ -2,6 +2,7 @@ using System.Reflection;
 using FluentValidation;
 using MasterData.Application.Behaviors;
 using MasterData.Application.Commands;
+using MasterData.Application.Services;
 using MasterData.Core.Repositories;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
@@ -18,6 +19,8 @@ public static class ServiceRegistration
         serviceCollection.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
         serviceCollection.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
         serviceCollection.AddTransient(typeof(IPipelineBehavior<,>), typeof(UnhandledExceptionBehavior<,>));
+        serviceCollection.AddTransient<IJobsGoService, JobsGoService>();
+
         return serviceCollection;
     }
 }

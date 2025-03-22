@@ -23,6 +23,7 @@ public static class InfraServices
         serviceCollection.AddScoped<IBranchRepository, BranchRepository>();
         serviceCollection.AddScoped<IScheduleRepository, ScheduleRepository>();
         serviceCollection.AddScoped<IAccountRepository, AccountRepository>();
+        serviceCollection.AddScoped<IMenuRepository, MenuRepository>();
         return serviceCollection;
     }
 }

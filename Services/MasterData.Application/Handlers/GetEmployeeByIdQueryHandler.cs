@@ -17,7 +17,7 @@ public class GetEmployeeByIdQueryHandler(IEmployeeRepository employeeRepository,
 
     public async Task<EmployeeDto> Handle(GetEmployeeByIdQuery request, CancellationToken cancellationToken)
     {
-        var employee = await _employeeRepository.GetByIdAsync(request.Id);
+        var employee = await _employeeRepository.GetEmployeeById(request.Id);
         if (employee is null)
         {
             throw new NotFoundException(nameof(Employee), request.Id);

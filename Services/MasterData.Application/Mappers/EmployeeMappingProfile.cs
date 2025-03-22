@@ -10,6 +10,9 @@ public class EmployeeMappingProfile : Profile
     public EmployeeMappingProfile()
     {
         CreateMap<Employee, CreateEmployeeCommand>().ReverseMap();
-        CreateMap<Employee, EmployeeDto>().ReverseMap();
+        CreateMap<Employee, EmployeeDto>()
+            .ForMember(des => des.RoleIds, 
+                act => act.MapFrom(src => src.Roles.Select(x => x.Id)))
+            .ReverseMap();
     }
 }
