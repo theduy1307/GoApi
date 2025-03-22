@@ -20,7 +20,7 @@ public class JobsGoService(HttpClient httpClient) : IJobsGoService
             var streamContent = new StreamContent(fileStream);
             streamContent.Headers.ContentType = new MediaTypeHeaderValue(file.ContentType);
 
-            formData.Add(streamContent, "file", file.FileName);
+            formData.Add(streamContent, "cv", file.FileName);
         }
 
         // 📤 Gửi request đến API
