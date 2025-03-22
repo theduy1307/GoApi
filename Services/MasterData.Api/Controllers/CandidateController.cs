@@ -12,6 +12,7 @@ namespace MasterData.Api.Controllers;
 [Authorize]
 public class CandidateController(IMediator mediator, ILogger<BranchController> logger) : ApiController
 {
+    [AllowAnonymous]
     [HttpPost("[action]")]
     [Consumes("multipart/form-data")]
     [ProducesResponseType((int)HttpStatusCode.OK)]
