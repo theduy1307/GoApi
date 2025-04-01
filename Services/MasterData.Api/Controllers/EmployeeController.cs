@@ -1,10 +1,10 @@
 using System.Net;
 using MasterData.Application.Commands;
+using MasterData.Application.Exceptions;
 using MasterData.Application.Queries;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.IdentityModel.JsonWebTokens;
 
 namespace MasterData.Api.Controllers;
 
@@ -35,12 +35,12 @@ public class EmployeeController(IMediator mediator, ILogger<EmployeeController> 
     
         if (identity == null || !identity.Claims.Any())
         {
-            return Unauthorized(new { message = "Invalid token" });
+            throw new InvalidTokenException();
         }
         var claims = identity.Claims.ToDictionary(c => c.Type, c => c.Value);
         if (!claims.ContainsKey(System.Security.Claims.ClaimTypes.NameIdentifier))
         {
-            return Unauthorized(new { message = "Invalid token" });
+            throw new InvalidTokenException();
         }
 
         var employeeId = Guid.Parse(claims[System.Security.Claims.ClaimTypes.NameIdentifier]);

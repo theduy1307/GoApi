@@ -12,13 +12,21 @@ namespace MasterData.Api.Controllers;
 [Authorize]
 public class CandidateController(IMediator mediator, ILogger<BranchController> logger) : ApiController
 {
-    [AllowAnonymous]
     [HttpPost("[action]")]
     [Consumes("multipart/form-data")]
     [ProducesResponseType((int)HttpStatusCode.OK)]
-    public async Task<ActionResult<JobsGoResponse>> ParseCvInformation(IFormFile file)
+    public async Task<ActionResult<JobsGoResponse>> ParseCvInformation([FromForm] IFormFile file)
     {
         var result = await mediator.Send(new ParseCvInformationQuery(){CvFile = file});
+        return Ok(result);
+    }
+    
+    [HttpGet]
+    [AllowAnonymous]
+    public async Task<ActionResult<Result<IReadOnlyList<CandidateDto>>>> GetCandidatePaging(
+        [FromQuery] GetCandidatePagingQuery request)
+    {
+        var result = await mediator.Send(request);
         return Ok(result);
     }
 }

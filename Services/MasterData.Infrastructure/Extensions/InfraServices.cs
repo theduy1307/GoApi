@@ -25,6 +25,7 @@ public static class InfraServices
         serviceCollection.AddScoped<IAccountRepository, AccountRepository>();
         serviceCollection.AddScoped<IMenuRepository, MenuRepository>();
         serviceCollection.AddScoped<IRecruitmentCampaignRepository, RecruitmentCampaignRepository>();
+        serviceCollection.AddScoped<ICandidateRepository, CandidateRepository>();
         return serviceCollection;
     }
 }

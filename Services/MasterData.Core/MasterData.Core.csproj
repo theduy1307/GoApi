@@ -9,7 +9,7 @@
         <Exec Command="dotnet restore $(MSBuildProjectDirectory)\$(MSBuildProjectName).csproj" />
     </Target>
     <ItemGroup>
-      <PackageReference Include="GoSolution.HRM.Entity" Version="2.0.1" />
+      <PackageReference Include="GoSolution.HRM.Entity" Version="2.0.5" />
     </ItemGroup>
 
 </Project>

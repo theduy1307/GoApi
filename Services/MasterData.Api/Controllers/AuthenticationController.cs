@@ -20,7 +20,7 @@ public class AuthenticationController(IMediator mediator, ILogger<Authentication
         {
             return HandleFailure(tokenResult);
         }
-        return Ok(tokenResult.Value);
+        return Ok(tokenResult);
     }
     
     [HttpGet("Menu")]
