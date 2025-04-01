@@ -7,12 +7,12 @@ using MediatR;
 
 namespace MasterData.Application.Handlers.Queries;
 
-public class ParseCvInformationQueryHandler(IJobsGoService jobsGoService, IMapper mapper) : IRequestHandler<ParseCvInformationQuery, JobsGoResponse>
+public class ParseCvInformationQueryHandler(IJobsGoService jobsGoService, IMapper mapper) : IRequestHandler<ParseCvInformationQuery, Result<JobsGoResponse>>
 {
     private readonly IJobsGoService _jobsGoService = jobsGoService;
     private readonly IMapper _mapper = mapper;
 
-    public async Task<JobsGoResponse> Handle(ParseCvInformationQuery request, CancellationToken cancellationToken)
+    public async Task<Result<JobsGoResponse>> Handle(ParseCvInformationQuery request, CancellationToken cancellationToken)
     {
         return await _jobsGoService.GetCvInformation(request.CvFile);
     }

@@ -113,7 +113,7 @@ public class ErrorHandlingMiddleware
                 default: messageCode = "InternalServerError"; break;
             }
             string message = pMessage == "" ? messageCode : pMessage;
-            var result = JsonConvert.SerializeObject(new { status = status, message = message });
+            var result = JsonConvert.SerializeObject(new { isSuccess = false, isError = true, error = new {code = status, message = message} });
             writer.Write(result);
             writer.Flush();
             stream.Position = 0;
