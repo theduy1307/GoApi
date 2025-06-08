@@ -29,4 +29,12 @@ public class CandidateController(IMediator mediator, ILogger<BranchController> l
         var result = await mediator.Send(request);
         return Ok(result);
     }
+    
+    [HttpPost("[action]")]
+    [AllowAnonymous]
+    public async Task<ActionResult> VisionApi([FromForm] List<IFormFile> lstFile)
+    {
+        var result = await mediator.Send(new ImportCertificateQuery(){CvFile = lstFile});
+        return Ok(result);
+    }
 }
