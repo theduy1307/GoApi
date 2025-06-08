@@ -20,6 +20,7 @@ public static class ServiceRegistration
         serviceCollection.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
         serviceCollection.AddTransient(typeof(IPipelineBehavior<,>), typeof(UnhandledExceptionBehavior<,>));
         serviceCollection.AddTransient<IJobsGoService, JobsGoService>();
+        serviceCollection.AddTransient<IImportCertificateService, ImportCertificateService>();
 
         return serviceCollection;
     }
